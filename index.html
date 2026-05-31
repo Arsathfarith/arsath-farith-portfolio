@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsath Farith | AI Engineer & Software Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Arsath Farith, an MCA Student, AI Engineer, and Software Developer. Discover projects in CareerLensAI, FraudShield, and Time Series Forecasting.">
+    <meta name="keywords" content="Arsath Farith, Portfolio, MCA, AI Engineer, Software Developer, ASP.NET, C#, Python, Machine Learning, Streamlit, Scikit-Learn">
+    <meta name="author" content="Arsath Farith">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Arsath Farith | Portfolio">
+    <meta property="og:description" content="Explore Arsath Farith's corporate software engineer portfolio featuring AI classification models, forecasting engines, and enterprise C# structures.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://linkedin.com/in/farith">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+    <!-- Floating Back-to-Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+        <svg class="progress-ring" width="44" height="44">
+            <circle class="progress-ring__circle" stroke="#2563EB" stroke-width="3" fill="transparent" r="18" cx="22" cy="22"/>
+        </svg>
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Top Sticky Navigation Bar -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Arsath<span class="logo-bold">Farith</span><span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- 1. HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-container container grid-2">
+                <div class="hero-content">
+                    <span class="hero-badge reveal"><i class="fa-solid fa-graduation-cap"></i> MCA Candidate & Tech Innovator</span>
+                    <h1 class="hero-title reveal">
+                        Hi, I am <span class="text-highlight">Arsath Farith</span>
+                    </h1>
+                    <h2 class="hero-subtitle reveal">
+                        <span class="static-role">I'm a </span>
+                        <span id="typewriter" class="typewriter-text"></span>
+                        <span class="typed-cursor" aria-hidden="true">|</span>
+                    </h2>
+                    <p class="hero-tagline reveal">
+                        Transforming Ideas into Intelligent Software Solutions
+                    </p>
+                    
+                    <div class="hero-cta reveal">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code"></i> View Projects</a>
+                        <a href="./resume.pdf" class="btn btn-primary btn-large" download="Arsath_Farith_Resume.pdf">
+    <i class="fa-solid fa-file-arrow-down"></i> Download PDF Resume
+</a>
+                        <a href="#contact" class="btn btn-text"><i class="fa-solid fa-arrow-right"></i> Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-illustration reveal">
+                    <div class="illustration-frame">
+                        <div class="tech-stack-circles">
+                            <div class="tech-icon-circle csharp" title="C#"><i class="fa-solid fa-hashtag"></i></div>
+                            <div class="tech-icon-circle python" title="Python"><i class="fa-brands fa-python"></i></div>
+                            <div class="tech-icon-circle dotnet" title="ASP.NET"><i class="fa-solid fa-cubes"></i></div>
+                            <div class="tech-icon-circle sql" title="SQL Server"><i class="fa-solid fa-database"></i></div>
+                        </div>
+                        <div class="profile-placeholder">
+                            <i class="fa-solid fa-laptop-code profile-icon"></i>
+                            <div class="profile-info-pill">
+                                <span class="pulse-indicator"></span>
+                                <span>Placements Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+                <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+                <i class="fa-solid fa-chevron-down bouncing-arrow"></i>
+            </a>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="about-grid grid-2 reveal">
+                    <div class="about-visual">
+                        <div class="highlights-card">
+                            <h3 class="highlights-title"><i class="fa-solid fa-circle-info text-blue"></i> Quick Highlights</h3>
+                            <ul class="highlights-list">
+                                <li>
+                                    <div class="highlight-icon"><i class="fa-solid fa-university"></i></div>
+                                    <div class="highlight-info">
+                                        <h4>MCA Student</h4>
+                                        <p>Jamal Mohamed College (2024 - 2026)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+                                    <div class="highlight-info">
+                                        <h4>Specialization</h4>
+                                        <p>AI / ML & Software Development</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="highlight-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                    <div class="highlight-info">
+                                        <h4>Core Stack</h4>
+                                        <p>C#, ASP.NET MVC, Python, SQL Server</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="highlight-icon"><i class="fa-solid fa-map-pin"></i></div>
+                                    <div class="highlight-info">
+                                        <h4>Location</h4>
+                                        <p>Tiruchirappalli, Tamil Nadu, India</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <p class="about-lead">
+                            I am a Master of Computer Applications (MCA) student with a strong foundation in Software Development, Web Technologies, Database Management, and Artificial Intelligence. I have hands-on experience in developing web applications using C#, ASP.NET MVC, SQL Server, HTML, and CSS.
+                        </p>
+                        <p>
+                            I am passionate about designing efficient software solutions and building intelligent systems that solve real-world problems. My areas of interest include Artificial Intelligence, Machine Learning, Full Stack Development, and Software Engineering.
+                        </p>
+                        <p>
+                            Through academic projects and continuous learning, I have developed strong problem-solving, logical reasoning, and application development skills. I am currently focused on building AI-powered applications and expanding my expertise in modern software technologies.
+                        </p>
+                        <blockquote class="about-quote">
+                            "My goal is to create innovative, scalable, and impactful software solutions while growing into a skilled AI Engineer and Software Developer."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. TECHNICAL SKILLS SECTION -->
+        <section id="skills" class="skills-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">What I Bring to the Table</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="skills-grid reveal">
+                    
+                    <!-- Programming Languages -->
+                    <div class="skill-card">
+                        <div class="skill-card-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3 class="skill-card-title">Programming Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C#</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-card">
+                        <div class="skill-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3 class="skill-card-title">Web Development</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">ASP.NET MVC</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML & CSS</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database Management -->
+                    <div class="skill-card">
+                        <div class="skill-card-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="skill-card-title">Database Management</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL Server</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & Machine Learning -->
+                    <div class="skill-card">
+                        <div class="skill-card-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3 class="skill-card-title">AI & Machine Learning</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Classification Models</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Regression Models</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Time Series Forecasting</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Tools (Tag Chips) -->
+                <div class="tools-container reveal">
+                    <h3 class="tools-title text-center"><i class="fa-solid fa-screwdriver-wrench text-blue"></i> Professional Tools & Utilities</h3>
+                    <div class="tools-flex">
+                        <span class="tool-tag"><i class="fa-solid fa-square-caret-right"></i> Visual Studio</span>
+                        <span class="tool-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+                        <span class="tool-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                        <span class="tool-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4. EDUCATION SECTION -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Academic Journey</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <!-- Timeline Design -->
+                <div class="timeline reveal">
+                    
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2024 - 2026</span>
+                            <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+                            <h4 class="timeline-institution">Jamal Mohamed College, Tiruchirappalli</h4>
+                            <p class="timeline-desc">
+                                Specializing in advanced applications architecture, software engineering methodologies, database query structures, and machine learning systems. Developing strong logical and algorithmic paradigms.
+                            </p>
+                            <span class="timeline-badge"><i class="fa-solid fa-award"></i> Active Post-Graduation</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-university"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2020 - 2023</span>
+                            <h3 class="timeline-degree">Bachelor of Computer Science (B.Sc CS)</h3>
+                            <h4 class="timeline-institution">Jamal Mohamed College, Tiruchirappalli</h4>
+                            <p class="timeline-desc">
+                                Completed undergraduate curriculum focused deeply on computational mathematics, object-oriented concepts, relational databases, data structures, and algorithm design.
+                            </p>
+                            <span class="timeline-badge"><i class="fa-solid fa-check-double"></i> Completed with Distinction</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2020</span>
+                            <h3 class="timeline-degree">Higher Secondary Education (HSC)</h3>
+                            <h4 class="timeline-institution">Bishop Heber Higher Secondary School, Tiruchirappalli</h4>
+                            <p class="timeline-desc">
+                                Stream parameters centered on Mathematics, Computer Science, Physics, and Chemistry, driving key logical and conceptual synthesis patterns.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROJECTS SECTION -->
+        <section id="projects" class="projects-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Real-World Implementations</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="projects-vertical-flow reveal">
+                    
+                    <!-- FEATURED PROJECT: CareerLensAI -->
+                    <article class="featured-project-box reveal">
+                        <div class="featured-project-badge"><i class="fa-solid fa-star"></i> Featured AI Project</div>
+                        <div class="featured-project-grid">
+                            <div class="featured-project-info">
+                                <div class="project-tech-badges">
+                                    <span class="badge">Python</span>
+                                    <span class="badge">Machine Learning</span>
+                                    <span class="badge">Regression</span>
+                                    <span class="badge">Streamlit</span>
+                                    <span class="badge">Pandas</span>
+                                    <span class="badge">Scikit-Learn</span>
+                                </div>
+                                <h3 class="featured-project-title">CareerLensAI</h3>
+                                <p class="featured-project-description">
+                                    CareerLensAI is an AI-powered career prediction and guidance platform that uses machine learning regression models to analyze user skills, academic performance, and career interests. The system predicts suitable career paths and provides intelligent recommendations to help users make informed career decisions.
+                                </p>
+                                <ul class="featured-project-bullets">
+                                    <li>Implemented high-accuracy multi-parameter ML regression pipelines utilizing Scikit-Learn.</li>
+                                    <li>Optimized tabular feature extraction routines using Pandas for academic score matrices.</li>
+                                    <li>Designed interactive Streamlit dashboards enabling intuitive candidate assessment workflows.</li>
+                                </ul>
+                            </div>
+                            <div class="featured-project-visual">
+                                <div class="console-terminal-simulator">
+                                    <div class="terminal-header">
+                                        <span class="btn-term red"></span>
+                                        <span class="btn-term yellow"></span>
+                                        <span class="btn-term green"></span>
+                                        <span class="terminal-filename">careerlens_ai.py</span>
+                                    </div>
+                                    <div class="terminal-body">
+                                        <span class="term-line comment"># Fetching classifier configurations...</span>
+                                        <span class="term-line">import scikit_learn as sklearn</span>
+                                        <span class="term-line">import pandas as pd</span>
+                                        <span class="term-line">model = load_model('regression_v1.pkl')</span>
+                                        <span class="term-line success">>>> Prediction: AI Engineer [94.8% Match]</span>
+                                    </div>
+                                </div>
+                               <div class="featured-project-buttons">
+
+    <a href="https://github.com/Arsathfarith/CareerLensAI"
+       target="_blank"
+       class="btn btn-sec-outline btn-full">
+        <i class="fa-brands fa-github"></i> Repository
+    </a>
+
+    <a href="https://career-lens-ai-dusky.vercel.app/"
+       target="_blank"
+       class="btn btn-sec-solid btn-full">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+    </a>
+
+</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Spaced Grid of subsequent 3 projects -->
+                    <div class="projects-sub-grid reveal">
+                        
+                        <!-- Project 2 -->
+                        <article class="project-item-card">
+                            <div class="project-item-header">
+                                <div class="project-item-icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                                <span class="project-item-category">Time Series / ML</span>
+                            </div>
+                            <div class="project-item-body">
+                                <h3 class="project-item-title">Electricity Demand Forecasting</h3>
+                                <div class="project-item-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">Forecasting</span>
+                                    <span class="tag">Streamlit</span>
+                                </div>
+                                <p class="project-item-desc">
+                                    Developed an intelligent forecasting application that predicts future electricity demand using historical energy consumption data and machine learning forecasting models.
+                                </p>
+                                <ul class="project-item-bullets-list">
+                                    <li>Time Series forecasting integrations</li>
+                                    <li>Interactive Streamlit dashboard</li>
+                                </ul>
+                            </div>
+                           <div class="project-item-footer">
+
+    <a href="https://github.com/Arsathfarith/ElectricityAI"
+       target="_blank"
+       class="btn-sec-outline"
+       aria-label="GitHub Repository for Electricity Demand Forecasting">
+        <i class="fa-brands fa-github"></i> GitHub
+    </a>
+
+    <a href="https://electricity-ai-qo15.vercel.app/"
+       target="_blank"
+       class="btn-sec-solid"
+       aria-label="Live Demo for Electricity Demand Forecasting">
+        <i class="fa-solid fa-play"></i> Live Demo
+    </a>
+
+</div>
+                        </article>
+
+                        <!-- Project 3 -->
+                        <article class="project-item-card">
+                            <div class="project-item-header">
+                                <div class="project-item-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                                <span class="project-item-category">AI Classification</span>
+                            </div>
+                            <div class="project-item-body">
+                                <h3 class="project-item-title">FraudShield AI Classification</h3>
+                                <div class="project-item-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">Classification</span>
+                                    <span class="tag">Streamlit</span>
+                                </div>
+                                <p class="project-item-desc">
+                                    Developed an AI-powered fraud detection system capable of identifying suspicious transactions using machine learning classification algorithms.
+                                </p>
+                                <ul class="project-item-bullets-list">
+                                    <li>High accuracy threat classification</li>
+                                    <li>Machine learning logic parameters</li>
+                                </ul>
+                            </div>
+                           <div class="project-item-footer">
+
+    <a href="https://github.com/Arsathfarith/FraudShield-AI-Classification"
+       target="_blank"
+       class="btn-sec-outline"
+       aria-label="GitHub Repository for FraudShield AI Classification">
+        <i class="fa-brands fa-github"></i> GitHub
+    </a>
+
+    <a href="https://fraud-shield-ai-one.vercel.app/"
+       target="_blank"
+       class="btn-sec-solid"
+       aria-label="Live Demo for FraudShield AI Classification">
+        <i class="fa-solid fa-play"></i> Live Demo
+    </a>
+
+</div>
+                        </article>
+
+                        <!-- Project 4 -->
+                        <article class="project-item-card">
+                            <div class="project-item-header">
+                                <div class="project-item-icon-box"><i class="fa-solid fa-cart-shopping"></i></div>
+                                <span class="project-item-category">Enterprise Web</span>
+                            </div>
+                            <div class="project-item-body">
+                                <h3 class="project-item-title">E-Commerce Recommendation System</h3>
+                                <div class="project-item-tags">
+                                    <span class="tag">C#</span>
+                                    <span class="tag">ASP.NET MVC</span>
+                                    <span class="tag">SQL Server</span>
+                                    <span class="tag">HTML & CSS</span>
+                                </div>
+                                <p class="project-item-desc">
+                                    Developed a full-stack e-commerce web application with an intelligent recommendation engine based on user behavior and preferences.
+                                </p>
+                                <ul class="project-item-bullets-list">
+                                    <li>Collaborative item recommendation model</li>
+                                    <li>Complex SQL Server schemas</li>
+                                </ul>
+                            </div>
+                            <div class="project-item-footer">
+                                <a href="#" class="btn-sec-outline" aria-label="GitHub Repository for E-Commerce Recommendation System"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="btn-sec-solid" aria-label="Live Demo for E-Commerce Recommendation System"><i class="fa-solid fa-play"></i> Live Demo</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CERTIFICATIONS SECTION -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Verified Credentials</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="certifications-grid-spacious reveal">
+                    
+                    <!-- Certification 1: NPTEL Python (View Button Enabled) -->
+                    <div class="certification-visual-card highlight-border">
+                        <div class="cert-icon-container" aria-hidden="true">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-visual-content">
+                            <h3 class="cert-item-title-text">NPTEL Python Certification</h3>
+                            <div class="cert-meta-row">
+                                <span class="label">Organization:</span>
+                                <span class="val">NPTEL (Ministry of Education, Gov of India)</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Category:</span>
+                                <span class="val">Computer Science & Systems</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Status:</span>
+                                <span class="val status-bold"><i class="fa-solid fa-circle-check"></i> Completed & Verified</span>
+                            </div>
+                        </div>
+                        <div class="cert-action-centered-container text-center">
+                           <a href="./certificates/nptel-python-certificate.pdf.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary-blue-filled">
+    <i class="fa-solid fa-eye"></i> View Certificate
+</a>
+                        </div>
+                    </div>
+
+                    <!-- Certification 2: Python For Data Science (No Buttons) -->
+                    <div class="certification-visual-card">
+                        <div class="cert-icon-container" aria-hidden="true">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-visual-content">
+                            <h3 class="cert-item-title-text">Python For Data Science</h3>
+                            <div class="cert-meta-row">
+                                <span class="label">Organization:</span>
+                                <span class="val">ROOT IT</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Category:</span>
+                                <span class="val">Data Science / Python Programming</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Status:</span>
+                                <span class="val status-bold"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification 3: Workshop ML (No Buttons) -->
+                    <div class="certification-visual-card">
+                        <div class="cert-icon-container" aria-hidden="true">
+                            <i class="fa-solid fa-school-flag"></i>
+                        </div>
+                        <div class="cert-visual-content">
+                            <h3 class="cert-item-title-text">Modern Tools and Frameworks of Machine Learning</h3>
+                            <div class="cert-meta-row">
+                                <span class="label">Organization:</span>
+                                <span class="val">International Workshop Panel</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Category:</span>
+                                <span class="val">Machine Learning / AI Tooling</span>
+                            </div>
+                            <div class="cert-meta-row">
+                                <span class="label">Status:</span>
+                                <span class="val status-bold"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. RESUME SECTION -->
+        <section id="resume" class="resume-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Recruiting Hub</span>
+                    <h2 class="section-title">Resume</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="resume-spacious-wrapper reveal">
+                    <div class="resume-flat-card grid-2">
+                        <div class="resume-mockup-graphic">
+                            <div class="mockup-page-sheet">
+                                <div class="mockup-header-block"></div>
+                                <div class="mockup-sub-header-block"></div>
+                                <div class="mockup-two-col-layout">
+                                    <div class="mockup-left-pane">
+                                        <div class="pane-box"></div>
+                                        <div class="pane-box"></div>
+                                    </div>
+                                    <div class="mockup-right-pane">
+                                        <div class="pane-line"></div>
+                                        <div class="pane-line"></div>
+                                        <div class="pane-line short"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="preview-badge-pill">ATS-Optimized</div>
+                        </div>
+
+                        <div class="resume-highlights-details">
+                            <h3 class="details-title">Looking for a Dedicated AI Engineer & Developer?</h3>
+                            <p class="details-description">
+                                Download my complete, professional, ATS-screened PDF resume containing verified academic highlights, regression classification project parameters, and software engineering competencies.
+                            </p>
+                            
+                            <div class="details-checkpoints">
+                                <div class="checkpoint-item">
+                                    <i class="fa-solid fa-circle-check text-blue"></i>
+                                    <span>Detailed C# & Python Coursework breakdown</span>
+                                </div>
+                                <div class="checkpoint-item">
+                                    <i class="fa-solid fa-circle-check text-blue"></i>
+                                    <span>Complete AI project documentation summaries</span>
+                                </div>
+                                <div class="checkpoint-item">
+                                    <i class="fa-solid fa-circle-check text-blue"></i>
+                                    <span>Direct academic verification paths</span>
+                                </div>
+                            </div>
+
+                            <div class="details-action-btn">
+                               <a href="./resume.pdf" class="btn btn-primary btn-large" download="Arsath_Farith_Resume.pdf">
+    <i class="fa-solid fa-file-arrow-down"></i> Download PDF Resume
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Let's Connect</span>
+                    <h2 class="section-title">Contact</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="contact-spacious-grid grid-2 reveal">
+                    
+                    <!-- Spacious Contact Details Grid -->
+                    <div class="spacious-contact-details-cards">
+                        
+                        <!-- Email Card -->
+                        <a href="mailto:arshathfarith06@gmail.com" class="spacious-card">
+                            <div class="card-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="card-text-details">
+                                <h3>Email Address</h3>
+                                <p>arshathfarith06@gmail.com</p>
+                                <span class="action-text">Send Email <i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+
+                        <!-- Phone Card -->
+                        <a href="tel:+919600941594" class="spacious-card">
+                            <div class="card-icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div class="card-text-details">
+                                <h3>Phone / WhatsApp</h3>
+                                <p>+91 9600941594</p>
+                                <span class="action-text">Call Direct <i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+
+                        <!-- LinkedIn Card -->
+                        <a href="https://linkedin.com/in/farith" target="_blank" rel="noopener noreferrer" class="spacious-card">
+                            <div class="card-icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="card-text-details">
+                                <h3>LinkedIn Profile</h3>
+                                <p>linkedin.com/in/farith</p>
+                                <span class="action-text">Connect Profile <i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+
+                        <!-- Location Card -->
+                        <div class="spacious-card no-hover-trigger">
+                            <div class="card-icon-box"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="card-text-details">
+                                <h3>Location</h3>
+                                <p>Tiruchirappalli, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Spacious Form Widget -->
+                    <div class="spacious-contact-form-widget">
+                        <h3 class="form-banner-title"><i class="fa-solid fa-paper-plane text-blue"></i> Send Me a Message</h3>
+                        <form id="contact-form" class="spacious-form" autocomplete="on">
+                            <div class="form-grid-row-2">
+                                <div class="form-control-block">
+                                    <label for="form-name">Your Name <span class="text-danger">*</span></label>
+                                    <input type="text" id="form-name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-control-block">
+                                    <label for="form-email">Your Email <span class="text-danger">*</span></label>
+                                    <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-control-block mt-3">
+                                <label for="form-subject">Subject <span class="text-danger">*</span></label>
+                                <input type="text" id="form-subject" name="subject" placeholder="Collaboration / Job Opportunity" required>
+                            </div>
+                            <div class="form-control-block mt-3">
+                                <label for="form-message">Message <span class="text-danger">*</span></label>
+                                <textarea id="form-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full mt-4" id="submit-btn">
+                                <span class="btn-text-content">Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <div id="form-feedback" class="form-feedback hidden" role="alert"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER Section -->
+    <footer class="footer">
+        <div class="container footer-content text-center">
+            <a href="#home" class="footer-logo">
+                <span class="logo-accent">&lt;</span>Arsath<span class="logo-bold">Farith</span><span class="logo-accent"> /&gt;</span>
+            </a>
+            <p class="footer-tagline">Master of Computer Applications student aspiring to create highly intelligent software platforms.</p>
+            
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/farith" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:arshathfarith06@gmail.com" aria-label="Email Arsath">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="footer-credits">
+                <p>&copy; 2026 Arsath Farith. All rights reserved.</p>
+                <p class="design-credit">Crafted with Vanilla HTML, CSS, and JavaScript. Optimized for recruiters.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Interaction Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
